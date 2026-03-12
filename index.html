@@ -607,7 +607,7 @@ const db  = getDatabase(app);
 const cfgRef   = ref(db,'config');
 const orderRef = ref(db,'orders');
 
-let orders=[], cfg={products:['Emcol Uk N','Pad'],users:[{name:'Dogusoy',pass:'1234'},{name:'Meyveli',pass:'1234'},{name:'Aksu',pass:'1234'}],gruplar:['Tutkal','Polimer','Nişasta','Diğer'],urunGrup:{}};
+let orders=[], cfg={products:['Emcol Uk N','Pad'],users:[{name:'',pass:''},{name:'',pass:''},{name:'',pass:''}],gruplar:['Tutkal','Polimer','Nişasta','Diğer'],urunGrup:{}};
 let currentUser=null, editingKey=null;
 let fasonKayitlar=[];
 let chartDay=null, chartProd=null, chartStatus=null;
